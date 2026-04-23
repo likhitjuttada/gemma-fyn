@@ -16,6 +16,13 @@ tags:
 pretty_name: Personal Finance Reasoning (Book Principles)
 size_categories:
   - 1K<n<10K
+configs:
+  - config_name: default
+    data_files:
+      - split: train
+        path: combined_train.jsonl
+      - split: validation
+        path: combined_val.jsonl
 ---
 
 # Personal Finance Reasoning Dataset
