@@ -1,0 +1,24 @@
+# Environment
+.env
+
+# Book PDFs — copyrighted source material
+books/
+
+# Generated data — published separately on HuggingFace
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
